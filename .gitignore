@@ -1,7 +1,9 @@
-```
-*.class
-target/
+#IDEA
 *.iml
 .idea/
 out/
-```
+target/
+
+#JAVA
+*.class
+
