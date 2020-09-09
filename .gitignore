@@ -1,4 +1,6 @@
 #IDEA
+.idea/shelf/
+.idea/workspace.xml
 out/
 target/
 
