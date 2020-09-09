@@ -40,9 +40,6 @@ public class Task_2 {
         System.out.println();
         System.out.println(">>> Отсортированное множество слов");
         listWords.forEach(System.out::println);
-
     }
-
-
 }
 
