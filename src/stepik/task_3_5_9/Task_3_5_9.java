@@ -1,4 +1,4 @@
-package Stepik.Task_3_5_9;
+package stepik.task_3_5_9;
 
 public class Task_3_5_9 {
     public static void main(String[] args) {

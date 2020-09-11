@@ -1,4 +1,4 @@
-package School.Task_2;
+package school.task_2;
 
 import java.util.ArrayList;
 import java.util.Iterator;

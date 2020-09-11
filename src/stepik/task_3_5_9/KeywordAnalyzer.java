@@ -1,6 +1,4 @@
-package Stepik.Task_3_5_9;
-
-import java.util.Collection;
+package stepik.task_3_5_9;
 
 abstract class KeywordAnalyzer implements TextAnalyzer {
     protected abstract String[] getKeywords();

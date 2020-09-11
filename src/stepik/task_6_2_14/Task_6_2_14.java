@@ -1,6 +1,5 @@
-package Stepik.Task_6_2_14;
+package stepik.task_6_2_14;
 
-import java.util.Collections;
 import java.util.HashSet;
 import java.util.Set;
 

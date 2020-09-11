@@ -1,7 +1,6 @@
-package Stepik.Task_5_2_8;
+package stepik.task_5_2_8;
 
 import java.io.ByteArrayInputStream;
-import java.io.DataInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 

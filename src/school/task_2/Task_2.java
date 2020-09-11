@@ -1,9 +1,6 @@
-package School.Task_2;
+package school.task_2;
 
 import java.io.*;
-import java.nio.charset.StandardCharsets;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 import java.util.*;
 
 public class Task_2 {
@@ -75,7 +72,7 @@ public class Task_2 {
         System.out.println(">>> Введите номера строк для вывода на экран:");
         List<String> lineNumbers = Arrays.asList(console.nextLine().split(" "));
         for (String n : lineNumbers) {
-            Integer num = Integer.valueOf(n)-1;
+            int num = Integer.parseInt(n)-1;
             if (num < allLines.size()) {
                 System.out.println(allLines.get(num));
             }

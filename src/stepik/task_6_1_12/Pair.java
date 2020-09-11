@@ -1,7 +1,6 @@
-package Stepik.Task_6_1_12;
+package stepik.task_6_1_12;
 
 import java.util.Objects;
-import java.util.Optional;
 
 class Pair<T1,T2> {
     private T1 first;
