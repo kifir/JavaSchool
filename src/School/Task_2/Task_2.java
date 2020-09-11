@@ -1,6 +1,9 @@
 package School.Task_2;
 
 import java.io.*;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.*;
 
 public class Task_2 {
@@ -24,6 +27,10 @@ public class Task_2 {
             allLines.add(line);
             allWords.addAll(Arrays.asList(line.split(" ")));
         }
+
+        reader.close();
+
+//        allLines = (ArrayList<String>) Files.readAllLines(Paths.get(inputFileName), StandardCharsets.UTF_8);
 
         HashSet<String> setWords = new HashSet<>(allWords);
         ArrayList<String> listWords = new ArrayList<>(setWords);
