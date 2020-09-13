@@ -1,4 +1,4 @@
-package school.task_2;
+package school.lesson_2;
 
 import java.io.*;
 import java.util.*;
@@ -70,7 +70,7 @@ public class Task_2 {
         //6)Выведите на экран строки, номера которых задаются пользователем в произвольном порядке.
         Scanner console = new Scanner(System.in);
         System.out.println(">>> Введите номера строк для вывода на экран:");
-        List<String> lineNumbers = Arrays.asList(console.nextLine().split(" "));
+        String[] lineNumbers = console.nextLine().split(" ");
         for (String n : lineNumbers) {
             int num = Integer.parseInt(n)-1;
             if (num < allLines.size()) {

@@ -1,6 +1,7 @@
 package stepik.task_5_3_10;
 
 import java.io.UnsupportedEncodingException;
+import java.nio.charset.StandardCharsets;
 
 /**
  * Задача 5.3.10
@@ -19,7 +20,7 @@ public class Task_5_3_10 {
             System.out.println(Byte.toUnsignedInt(bytes[i]));
         }
 
-        bytes = str.getBytes("UTF-8");
+        bytes = str.getBytes(StandardCharsets.UTF_8);
         for (byte oneByte : bytes) System.out.println(Byte.toUnsignedInt(oneByte));
     }
 }

@@ -1,4 +1,4 @@
-package school.task_2;
+package school.lesson_2;
 
 public class Car {
     private String brand;
