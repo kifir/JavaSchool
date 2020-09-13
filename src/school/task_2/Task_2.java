@@ -78,6 +78,8 @@ public class Task_2 {
             }
         }
 
+
+
 //        ArrayList<Car> carList = new ArrayList(
 //                new Car("Hyndai", "sedan"),
 //                new Car("Hyndai", "hatchback"),
