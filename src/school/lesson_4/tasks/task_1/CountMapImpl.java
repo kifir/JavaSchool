@@ -3,6 +3,9 @@ package school.lesson_4.tasks.task_1;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * Параметризовать CountMap (из репозитория выше) и реализовать его.
+ */
 public class CountMapImpl<T> implements CountMap<T> {
     private Map<T, Integer> map;
 

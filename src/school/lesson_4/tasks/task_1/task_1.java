@@ -1,5 +1,6 @@
 package school.lesson_4.tasks.task_1;
 
+
 public class task_1 {
     public static void main(String[] args) {
         CountMapImpl<Integer> map = new CountMapImpl<>();
